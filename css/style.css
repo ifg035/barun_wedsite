@@ -3,8 +3,35 @@
 :root{
   --text-color:#000;
   --body-color:#fff;
+
 }
 
+body{
+    max-width: 1440px;
+}
+
+.d-flex{
+    display: flex;
+}
 .d-none{
     display: none;
 }
+.justify-between{
+    justify-content: space-between;
+}
+.my1{
+    margin: 0 1rem;
+}
+.my2{
+    margin: 0 2rem;
+}
+.my3{
+    margin: 0 3rem;
+}
+
+/*========================= /공통 스타일 ============================*/
+
+
+/*========================= /header ============================*/
+/*========================= /main ============================*/
+/*========================= /footer ============================*/
