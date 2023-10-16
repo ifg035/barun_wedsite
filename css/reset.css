@@ -1,11 +1,18 @@
+
 *,
-::before,
+:before,
 ::after{
     margin:0;
-    border:0;
     padding:0;
+    box-sizing: border-box;
 }
 
-li,ol{
+a,
+a:link{
+    text-decoration: none;
+    color:inherit;
+}
+
+ul,ol{
     list-style: none;
 }

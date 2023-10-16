@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+:root{
+  --text-color:#000;
+  --body-color:#fff;
+}
+
+.d-none{
+    display: none;
+}
