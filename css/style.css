@@ -19,6 +19,15 @@ body{
 .justify-between{
     justify-content: space-between;
 }
+.justify-center{
+    align-items: center;
+}
+.justify-right{
+    justify-content: right;
+}
+.text-center{
+    align-content: center;
+}
 .my1{
     margin: 0 1rem;
 }
@@ -27,6 +36,42 @@ body{
 }
 .my3{
     margin: 0 3rem;
+}
+.mx1{
+    margin:1rem 0 ;
+}
+.mx2{
+    margin:2rem 0 ;
+}
+.mx3{
+    margin:3rem 0 ;
+}
+.py1{
+    padding: 0 1rem;
+}
+.py2{
+    padding: 0 2rem;
+}
+.py3{
+    padding: 0 3rem;
+}
+.px1{
+    padding:1rem 0 ;
+}
+.px2{
+    padding:2rem 0 ;
+}
+.px3{
+    padding:3rem 0 ;
+}
+.gap1{
+    gap:1rem;
+}
+.gap2{
+    gap:2rem;
+}
+.gap3{
+    gap:3rem;
 }
 
 /*========================= /공통 스타일 ============================*/
