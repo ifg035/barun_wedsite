@@ -13,6 +13,8 @@ body{
 input{
     width:600px;
     height:60px;
+    border-radius:1.25rem;
+    font-size:20px;
 }
 
 .d-flex{
@@ -32,6 +34,9 @@ input{
 }
 .align-center{
     align-items: center;
+}
+.flex-column{
+    flex-direction:column;
 }
 .text-center{
     text-align: center;
@@ -94,24 +99,44 @@ input{
 .side_menu ul li:hover{
     border-bottom:3px solid #d103ff70;
 }
+.nav-menu li{
+    font-size: 1.2rem;
+}
+.nav-menu li:hover{
+    border-bottom:3px solid #333;
+}
 .logo img{
     width:100px;
     height:100px;
-    gap:1rem;
+}
+.home{
+    margin: 1rem 1rem;
+    align-items: center;
+}
+
+.home img{
+    width:140%;
+}
+.news-nav ul li{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .news-nav ul li:hover{
     border-bottom:3px solid #333;
 }
 
 /*========================= /header ============================*/
-.cloud{
-    width:1200px;
-    height: 650px;
+
+.cloud img{
+    width:90%;
+    margin: 3rem 0;
 }
 .input-btn a{
     border:1px solid #333;
 }
-.tag li a{
+.tag li>a{
+    width:90px;
+    height:40px;
     border: 1px solid #333;
     border-radius:3rem;
 }
@@ -122,17 +147,38 @@ input{
 .po_box{
     width: 300px;
     height: 300px;
+    background-color: aquamarine;
+    border: 1px solid #333;
+    border-radius: 10rem;
 }
 .po_box h3{
-    border: 1px solid #333;
-    border-radius: 3rem;
+    font-size: 2rem;
+    margin: 3rem 3rem;
+}
+.item1 img{
+    width:470px;
+    height:470px;
+}
+.item1 button{
+    width:70px;
+    height:30px;
+    margin: 3rem 3rem;
+}
+.item2 img{
+    width:470px;
+    height:470px;
+}
+.item2 button{
+    width:70px;
+    height:30px;
+    margin: 3rem 3rem;
 }
 .newsroom h2{
     font-size:2.5rem;
     text-align:center;
 }
 .griditems{
-    justify-content: center;;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     display: grid;
@@ -141,9 +187,14 @@ input{
     width:300px;
     height:300px;
     margin: 2rem auto;
+    border-radius: 1.3rem;
+    background:url(../images/grid.png);
     background-color: aquamarine;
 }
-
+.grid-text p{
+    box-sizing: border-box;
+    margin: 8rem 0 0 0 ;
+}
 .grid-container p:first-child{
     text-align:center;
     margin:10rem 0;
