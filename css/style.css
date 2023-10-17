@@ -20,13 +20,16 @@ body{
     justify-content: space-between;
 }
 .justify-center{
-    align-items: center;
+    justify-content: center;
 }
 .justify-right{
     justify-content: right;
 }
 .text-center{
-    align-content: center;
+    text-align: center;
+}
+.font-bold{
+    font-weight:bold;
 }
 .my1{
     margin: 0 1rem;
@@ -78,6 +81,29 @@ body{
 
 
 /*========================= /header ============================*/
+.newsroom h2{
+    font-size:2.5rem;
+    text-align:center;
+}
+.griditems{
+    max-width: 1000px;
+    justify-content: center;
+    margin-left:14rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.grid-container{
+    width:300px;
+    height:300px;
+    margin: 2rem auto;
+    background-color: aquamarine;
+}
+
+.grid-container p:first-child{
+    text-align:center;
+    margin:10rem 0;
+}
 /*========================= /main ============================*/
 
 .carsousel{
