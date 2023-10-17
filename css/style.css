@@ -10,6 +10,11 @@ body{
     max-width: 1440px;
 }
 
+input{
+    width:600px;
+    height:60px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -86,6 +91,9 @@ body{
     height:100px;
     gap:1rem;
 }
+.side_menu ul li:hover{
+    border-bottom:3px solid #d103ff70;
+}
 .logo img{
     width:100px;
     height:100px;
@@ -96,6 +104,29 @@ body{
 }
 
 /*========================= /header ============================*/
+.cloud{
+    width:1200px;
+    height: 650px;
+}
+.input-btn a{
+    border:1px solid #333;
+}
+.tag li a{
+    border: 1px solid #333;
+    border-radius:3rem;
+}
+.po_items{
+    display: flex;
+    margin:5rem 5rem;
+}
+.po_box{
+    width: 300px;
+    height: 300px;
+}
+.po_box h3{
+    border: 1px solid #333;
+    border-radius: 3rem;
+}
 .newsroom h2{
     font-size:2.5rem;
     text-align:center;
