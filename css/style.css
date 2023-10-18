@@ -10,6 +10,13 @@ body{
     max-width: 1440px;
 }
 
+input{
+    width:600px;
+    height:60px;
+    border-radius:1.25rem;
+    font-size:20px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -20,13 +27,22 @@ body{
     justify-content: space-between;
 }
 .justify-center{
-    align-items: center;
+    justify-content: center;
 }
 .justify-right{
     justify-content: right;
 }
+.align-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction:column;
+}
 .text-center{
-    align-content: center;
+    text-align: center;
+}
+.font-bold{
+    font-weight:bold;
 }
 .my1{
     margin: 0 1rem;
@@ -75,9 +91,110 @@ body{
 }
 
 /*========================= /공통 스타일 ============================*/
+.head_logo img{
+    width:100px;
+    height:100px;
+    gap:1rem;
+}
+.side_menu ul li:hover{
+    border-bottom:3px solid #d103ff70;
+}
+.nav-menu li{
+    font-size: 1.2rem;
+}
+.nav-menu li:hover{
+    border-bottom:3px solid #333;
+}
+.logo img{
+    width:100px;
+    height:100px;
+}
+.home{
+    margin: 1rem 1rem;
+    align-items: center;
+}
 
+.home img{
+    width:140%;
+}
+.news-nav ul li{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.news-nav ul li:hover{
+    border-bottom:3px solid #333;
+}
 
 /*========================= /header ============================*/
+
+.cloud img{
+    width:90%;
+    margin: 3rem 0;
+}
+.input-btn a{
+    border:1px solid #333;
+}
+.tag li>a{
+    width:90px;
+    height:40px;
+    border: 1px solid #333;
+    border-radius:3rem;
+}
+.po_items{
+    display: flex;
+    margin:5rem 5rem;
+}
+.po_box{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    border: 1px solid #333;
+    border-radius: 10rem;
+}
+.po_box h3{
+    font-size: 2rem;
+    margin: 3rem 3rem;
+}
+.item1 img{
+    width:470px;
+    height:470px;
+}
+.item1 button{
+    width:70px;
+    height:30px;
+    margin: 3rem 3rem;
+}
+.item2 img{
+    width:470px;
+    height:470px;
+}
+.item2 button{
+    width:70px;
+    height:30px;
+    margin: 3rem 3rem;
+}
+.newsroom h2{
+    font-size:2.5rem;
+    text-align:center;
+}
+.griditems{
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.grid-container{
+    width:225px;
+    height:225px;
+    margin: 2rem auto;
+    border-radius: 1.3rem;
+    background-color: aquamarine;
+    background:url(../images/grid.png);
+}
+.grid1>p{
+    width:200px;
+    height: 200px;
+}
 /*========================= /main ============================*/
 
 .carsousel{
@@ -88,5 +205,16 @@ body{
     position:absolute;
     top:0;
     left:0;
+}
+.fo-left{
+    line-height: 1.25rem;
+}
+.fo-center{
+    margin: 3rem 0;
+}
+.sns img{
+    width:30px;
+    height:30px;
+    margin:0 3px;
 }
 /*========================= /footer ============================*/
