@@ -99,11 +99,25 @@ input{
 .side_menu ul li:hover{
     border-bottom:3px solid #d103ff70;
 }
+.nav_menu> ul> li a{
+    display:block;
+} 
+.nav_menu ul li{
+    text-align: center;
+}
 .nav-menu li{
     font-size: 1.2rem;
 }
 .nav-menu li:hover{
-    border-bottom:3px solid #333;
+    background: var(--text-color);
+    color:var(--body-color);
+}
+.sub_menu{
+    display: none;
+    font-size: 0.7rem;
+    border:1px solid #333;
+    background: var(--body-color);
+    color:#333;
 }
 .logo img{
     width:100px;
