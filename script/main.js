@@ -1,9 +1,10 @@
-//3 nav_menu 
+// nav_menu 
 $(function(){
-    $("nav_menu ul li").mouseenter(function(){
+    $(".nav_menu li").mouseenter(function(){
         $(this).children(".sub_menu").stop().slideDown();
     })
-    $("nav_menu ul li").mouseleave(function(){
+    $(".nav_menu li").mouseleave(function(){
         $(this).children(".sub_menu").stop().slideUp();
     })
+
 })

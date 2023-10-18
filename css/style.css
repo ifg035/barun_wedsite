@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "ucentesearch-inputtf-8";
 
 :root{
   --text-color:#000;
@@ -8,6 +8,8 @@
 
 body{
     max-width: 1440px;
+    align-items: center;
+    justify-content: center;
 }
 
 input{
@@ -43,6 +45,12 @@ input{
 }
 .font-bold{
     font-weight:bold;
+}
+.pos-absolute{
+    position: absolute;
+}
+.pos-relative{
+    position: relative;
 }
 .my1{
     margin: 0 1rem;
@@ -96,33 +104,47 @@ input{
     height:100px;
     gap:1rem;
 }
+
 .side_menu ul li:hover{
-    border-bottom:3px solid #d103ff70;
+   border-bottom:3px solid #660371;
 }
-.nav_menu> ul> li a{
-    display:block;
-} 
-.nav_menu ul li{
+.nav-box{
+    width:170px;
+    height:34px;
     text-align: center;
 }
-.nav-menu li{
-    font-size: 1.2rem;
+.nav_menu{
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-items: center;
 }
-.nav-menu li:hover{
-    background: var(--text-color);
-    color:var(--body-color);
+.nav_menu > li{
+    position: relative;
 }
+
 .sub_menu{
+    width:100%;
     display: none;
-    font-size: 0.7rem;
-    border:1px solid #333;
-    background: var(--body-color);
-    color:#333;
+    position:absolute;
+    font-size: 1rem;
+    align-items: center;
+    background: #fff;
 }
+.sub_menu li:hover{
+    background:#333;
+    color:#fff;
+}
+.sub_menu li {
+    text-align: center;
+    gap:2rem;
+    padding: .7rem .7rem;
+}
+
 .logo img{
     width:100px;
     height:100px;
 }
+
 .home{
     margin: 1rem 1rem;
     align-items: center;
@@ -131,19 +153,36 @@ input{
 .home img{
     width:140%;
 }
+
 .news-nav ul li{
     font-size: 1.2rem;
     font-weight: bold;
 }
 .news-nav ul li:hover{
-    border-bottom:3px solid #333;
+    border:1px solid #919191;
 }
+.news-nav ul> li a{
+    width:80px;
+    height:30px;
+}
+.news-nav ul> li> a{
+    background: var(--body-color);
+    color:#333;
+}
+
 
 /*========================= /header ============================*/
 
-.cloud img{
-    width:90%;
+.cloud{
+    background: url(../images/cloud.jpg);
+    width:1440px;
+    height: 600px;
     margin: 3rem 0;
+}
+.search-input button{
+    width: 70px;
+    height: 30px;
+    margin: .8rem;
 }
 .input-btn a{
     border:1px solid #333;
@@ -161,7 +200,8 @@ input{
 .po_box{
     width: 300px;
     height: 300px;
-    background-color: aquamarine;
+    margin: 0 auto;
+    background-color: rgb(91, 183, 245);
     border: 1px solid #333;
     border-radius: 10rem;
 }
@@ -176,7 +216,6 @@ input{
 .item1 button{
     width:70px;
     height:30px;
-    margin: 3rem 3rem;
 }
 .item2 img{
     width:470px;
@@ -185,7 +224,6 @@ input{
 .item2 button{
     width:70px;
     height:30px;
-    margin: 3rem 3rem;
 }
 .newsroom h2{
     font-size:2.5rem;
