@@ -9,133 +9,153 @@
     <script src="script/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="d-flex justify-between align-center">
-            <div class="head_logo my2">
-                <img src="images/braun-logo.svg" alt="header 로고">
+    <div class="wrap">
+        <header>
+            <div class="d-flex justify-between align-center">
+                <div class="head_logo my2">
+                    <img src="images/braun-logo.svg" alt="header 로고">
+                </div>
+                <div class="side_menu">
+                    <ul class="d-flex gap2">
+                        <li><a href="#"><img src="images/login.png" alt="로그인"></a></li>
+                        <li><a href="#"><img src="images/language.png" alt="언어"></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="side_menu">
-                <ul class="d-flex gap2">
-                    <li><a href="#"><img src="images/login.png" alt="로그인"></a></li>
-                    <li><a href="#"><img src="images/language.png" alt="언어"></a></li>
+            <div class="nav">
+                <ul class="nav_menu d-flex justify-center align-center">
+                    <li class="nav-box">
+                        <a href="#">회사소개</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">CEO 인사말</a></li>
+                            <li><a href="#">경업이념</a></li>
+                            <li><a href="#">사업분야</a></li>
+                            <li><a href="#">히스토리</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-box">
+                        <a href="#">제품</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">커피</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">아이스크림</a></li>
+                            <li><a href="#">주스</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-box">
+                        <a href="new.html">뉴스룸</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">새소식</a></li>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">바른푸드 스토리</a></li>
+                            <li><a href="#">라이브러리</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-box">
+                        <a href="#">고객센터</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">고객상담</a></li>
+                            <li><a href="#">제품공급문의</a></li>
+                            <li><a href="#">사이버 신고센터</a></li>
+                            <li><a href="#">안전신문고</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-        </div>
-        <div class="nav">
-            <ul class="nav_menu d-flex justify-center align-center">
-                <li class="nav-box">
-                    <a href="#">회사소개</a>
-                    <ul class="sub_menu">
-                        <li><a href="#">CEO 인사말</a></li>
-                        <li><a href="#">경업이념</a></li>
-                        <li><a href="#">사업분야</a></li>
-                        <li><a href="#">히스토리</a></li>
+        </header>
+        <main>
+            <div class="main-search">
+                <div class="cloud gap1">
+                    <img src="images/forset.jpg" alt="구름사진">
+                </div>
+            </div>
+            <div class="policy">
+                <div>
+                    <h2 class="text-center mx3 ">기업이념</h2>
+                    <ul class="po_items mx3 my3 px3 justify-center text-center justify-between">
+                        <li class="po_box  my2">
+                            <h3 class=" mx2">사회공헌</h3>
+                            <br>
+                            <p>작은 실천을 통해 행복한 내일을</p>
+                        </li>
+                        <li class="po_box my2">
+                            <h3 class="">환경,안전</h3>
+                            <br>
+                            <p>안전한 제조공정,신선한 재료</p>
+                        </li>
+                        <li class="po_box my2">
+                            <h3 class="">소비자중심</h3>
+                            <br>
+                            <p>지속적인 경영활동 개선</p>
+                        </li>
                     </ul>
-                </li>
-                <li class="nav-box">
-                    <a href="#">제품</a>
-                    <ul class="sub_menu">
-                        <li><a href="#">커피</a></li>
-                        <li><a href="#">음료</a></li>
-                        <li><a href="#">아이스크림</a></li>
-                        <li><a href="#">주스</a></li>
-                    </ul>
-                </li>
-                <li class="nav-box">
-                    <a href="new.html">뉴스룸</a>
-                    <ul class="sub_menu">
-                        <li><a href="#">새소식</a></li>
-                        <li><a href="#">보도자료</a></li>
-                        <li><a href="#">바른푸드 스토리</a></li>
-                        <li><a href="#">라이브러리</a></li>
-                    </ul>
-                </li>
-                <li class="nav-box">
-                    <a href="#">고객센터</a>
-                    <ul class="sub_menu">
-                        <li><a href="#">고객상담</a></li>
-                        <li><a href="#">제품공급문의</a></li>
-                        <li><a href="#">사이버 신고센터</a></li>
-                        <li><a href="#">안전신문고</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <div class="main-search">
-            <div class="cloud gap1">
-                <img src="images/cloud.jpg" alt="구름사진">
+                </div>
             </div>
             <div class="search-input px2 justify-center text-center">
-                <input  type="text" placeholder="제품명을 입력해주세요">
-                <button><a href="#">search</a></button>
+                <input  type="search" placeholder="제품명을 입력해주세요">
+                <button type="submit">search</button>
             </div>
-            <ul class="tag d-flex gap1 justify-center text-center">
-                <li><a href="#">#토마토주스</a></li>
-                <li><a href="#">#이온음료</a></li>
-                <li><a href="#">#아메리카노</a></li>
-                <li><a href="#">#바닐라맛</a></li>
-            </ul>
-        </div>
-        <div class="policy">
-            <div>
-                <ul class="po_items mx3 my3 px3 justify-center text-center justify-between">
-                    <li class="po_box  my2">
-                        <h3 class=" mx2">사회공헌</h3>
-                        <br>
-                        <p>작은 실천을 통해 행복한 내일을</p>
-                    </li>
-                    <li class="po_box my2">
-                        <h3 class="">환경,안전</h3>
-                        <br>
-                        <p>안전한 제조공정,신선한 재료</p>
-                    </li>
-                    <li class="po_box my2">
-                        <h3 class="">소비자중심</h3>
-                        <br>
-                        <p>지속적인 경영활동 개선</p>
-                    </li>
+                <ul class="tag d-flex gap1 justify-center text-center">
+                    <li><a href="#">#토마토주스</a></li>
+                    <li><a href="#">#이온음료</a></li>
+                    <li><a href="#">#아메리카노</a></li>
+                    <li><a href="#">#바닐라맛</a></li>
                 </ul>
-            </div>
-        </div>
-        <div class="items d-flex my3 mx3 py1 justify-between">
-            <div class="item1">
-                <img src="images/snack.png" alt="과자">
-                <button><a href="#">더보기</a></button>
-            </div>
-            <div class="item2">
-                <img src="images/cider.jpg" alt="음료">
-                <button><a href="#">더보기</a></button>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <hr>
-            <div class="d-flex justify-between gap1">
-                <div class="fo-left gap1 my3 px1">
-                    <p>(주)바른푸드 주소: 광주광역시 서구 경열로3 (농성동 271-4)</p>
-                    <p class="mx1">사업자:123456-12-1234</p>
-                    <p class="mx1">대표전화:1577-1234</p>
+                <h2 class="text-center mx3">판매제품</h2>
+            <div class="items mx-auto my3 mx3 py3 justify-between">
+                <div class="item1">
+                    <img src="images/cider.jpg" alt="과자">
+                    <button><a href="#">더보기</a></button>
                 </div>
-                <div class="fo-center justify-center text-center">
-                    <p>copyright&copy;bfood.all.rights reserved</p>
+                <div class="item2">
+                    <img src="images/milkis.jpg" alt="음료">
+                    <button><a href="#">더보기</a></button>
                 </div>
-                <div class="fo-right">
-                    <ul class="sns d-flex mx3">
-                        <li>
-                            <a href="#"><img src="images/facebook.png" alt="페이스북"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/instagram.png" alt="인스타"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/youtube.png" alt="유튜브"></a>
-                        </li>
-                    </ul>
+                <div class="item3">
+                    <img src="images/gatorade.jpg" alt="음료">
+                    <button><a href="#">더보기</a></button>
+                </div>
+                <div class="item4">
+                    <img src="images/demisoda.jpg" alt="과자">
+                    <button><a href="#">더보기</a></button>
+                </div>
+                <div class="item5">
+                    <img src="images/mogumogu.jpg" alt="음료">
+                    <button><a href="#">더보기</a></button>
+                </div>
+                <div class="item6">
+                    <img src="images/toreta.jpg" alt="음료">
+                    <button><a href="#">더보기</a></button>
                 </div>
             </div>
-    </footer>
+        </main>
+        <footer>
+            <hr>
+                <div class="d-flex justify-between gap1">
+                    <div class="fo-left gap1 my3 px1">
+                        <p>(주)바른푸드 주소: 광주광역시 서구 경열로3 (농성동 271-4)</p>
+                        <p class="mx1">사업자:123456-12-1234</p>
+                        <p class="mx1">대표전화:1577-1234</p>
+                    </div>
+                    <div class="fo-center justify-center text-center">
+                        <p>copyright&copy;bfood.all.rights reserved</p>
+                    </div>
+                    <div class="fo-right">
+                        <ul class="sns d-flex mx3">
+                            <li>
+                                <a href="#"><img src="images/facebook.png" alt="페이스북"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/instagram.png" alt="인스타"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/youtube.png" alt="유튜브"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </div>
     <script src="script/main.js"></script>
 </body>
 </html>
