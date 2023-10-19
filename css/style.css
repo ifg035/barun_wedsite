@@ -182,12 +182,14 @@ font-size:2rem;
 .input-btn a{
     border:1px solid #333;
 }
-.tag li>a{
-    width:90px;
-    height:40px;
+.tag li{
+    width:110px;
+    height:29px;
+    text-align: center;
     border: 1px solid #333;
     border-radius:3rem;
 }
+
 .po_items{
     display: flex;
     margin:5rem 5rem;
@@ -201,17 +203,19 @@ font-size:2rem;
     border-radius: 10rem;
 }
 .po_box h3{
-    font-size: 290news-nav rem;
+    font-size:1.7rem;
     margin: 3rem 3rem;
 }
 .items{
     width:610px;
-    height:1000px;
+    height:1100px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
 }
-
+.items div:hover{
+    border: 2px solid #333;
+}
 .item1 img{
     width:470px;
     height:470px;
