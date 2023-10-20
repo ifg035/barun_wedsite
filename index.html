@@ -11,13 +11,66 @@
 <body>
     <div class="wrap">
         <header>
+            <button type="submit">X</button>
             <div class="popup">
-                <h2>신규 회원가입 이벤트</h2>
-                <p>현재 신규 회원가입을 하시면 </p>
+                <h2 class="mx1">신규 회원가입 이벤트</h2>
+                <div class="po-sale d-flex">
+                    <img src="images/Ticket.png" alt="할인쿠폰">
+                    <p>15%</p>
+                    <p>전상품 할인적용쿠폰</p>
+                    <img src="images/download.png" alt="다운로드">
+                </div>
+                <div class="po-car">
+                    <img src="images/car.png" alt="배송비 무료쿠폰">
+                    <p>배송비 무료 쿠폰</p>
+                    <img src="images/download.png" alt="다운로드">
+                </div>
             </div>
-            <div class="d-flex justify-between align-center">
-                <div class="head_logo my2">
-                    <img src="images/braun-logo.svg" alt="header 로고">
+            <div class="head align-center justify-between d-flex mx3">
+                <div class="d-flex align-center">
+                    <div class="head_logo my2">
+                        <img src="images/logo.jpg" alt="header 로고">
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul class="nav_menu d-flex justify-center align-center">
+                        <li class="nav-box">
+                            <a href="#">회사소개</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">CEO 인사말</a></li>
+                                <li><a href="#">경업이념</a></li>
+                                <li><a href="#">사업분야</a></li>
+                                <li><a href="#">히스토리</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-box">
+                            <a href="#">제품</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">커피</a></li>
+                                <li><a href="#">음료</a></li>
+                                <li><a href="#">차</a></li>
+                                <li><a href="#">주스</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-box">
+                            <a href="new.html">뉴스룸</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">새소식</a></li>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">바른푸드 스토리</a></li>
+                                <li><a href="#">라이브러리</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-box">
+                            <a href="#">고객센터</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">고객상담</a></li>
+                                <li><a href="#">제품공급문의</a></li>
+                                <li><a href="#">사이버 신고센터</a></li>
+                                <li><a href="#">안전신문고</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <div class="side_menu">
                     <ul class="d-flex gap2">
@@ -25,46 +78,6 @@
                         <li><a href="#"><img src="images/language.png" alt="언어"></a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="nav">
-                <ul class="nav_menu d-flex justify-center align-center">
-                    <li class="nav-box">
-                        <a href="#">회사소개</a>
-                        <ul class="sub_menu">
-                            <li><a href="#">CEO 인사말</a></li>
-                            <li><a href="#">경업이념</a></li>
-                            <li><a href="#">사업분야</a></li>
-                            <li><a href="#">히스토리</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-box">
-                        <a href="#">제품</a>
-                        <ul class="sub_menu">
-                            <li><a href="#">커피</a></li>
-                            <li><a href="#">음료</a></li>
-                            <li><a href="#">아이스크림</a></li>
-                            <li><a href="#">주스</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-box">
-                        <a href="new.html">뉴스룸</a>
-                        <ul class="sub_menu">
-                            <li><a href="#">새소식</a></li>
-                            <li><a href="#">보도자료</a></li>
-                            <li><a href="#">바른푸드 스토리</a></li>
-                            <li><a href="#">라이브러리</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-box">
-                        <a href="#">고객센터</a>
-                        <ul class="sub_menu">
-                            <li><a href="#">고객상담</a></li>
-                            <li><a href="#">제품공급문의</a></li>
-                            <li><a href="#">사이버 신고센터</a></li>
-                            <li><a href="#">안전신문고</a></li>
-                        </ul>
-                    </li>
-                </ul>
             </div>
         </header>
         <main>
@@ -95,42 +108,60 @@
                     </ul>
                 </div>
             </div>
-            <div class="search-input px2 justify-center text-center">
-                <input  type="search" placeholder="제품명을 입력해주세요">
-                <button type="submit">search</button>
-            </div>
-                <ul class="tag d-flex gap1 justify-center text-center">
-                    <li><a href="#">#토마토주스</a></li>
-                    <li><a href="#">#이온음료</a></li>
-                    <li><a href="#">#아메리카노</a></li>
-                    <li><a href="#">#바닐라맛</a></li>
-                </ul>
-                <h2 class="text-center mx3">판매제품</h2>
-            <div class="items mx-autojustify-between">
+            <h2 class="text-center mx3">자사브랜드</h2>
+            <ul class="tag d-flex gap1 justify-center text-center">
+                <li><a href="#">#토마토주스</a></li>
+                <li><a href="#">#이온음료</a></li>
+                <li><a href="#">#아메리카노</a></li>
+                <li><a href="#">#바닐라맛</a></li>
+            </ul>
+            <div class="items mx-autojustify-between text-center">
                 <div class="item1">
                     <img src="images/cider.jpg" alt="사이다">
                     <p>사이다 제로 355ml</p>
-                    <button><a href="#">더보기</a></button>
                 </div>
                 <div class="item2">
                     <img src="images/milkis.jpg" alt="밀키스">
-                    <button><a href="#">더보기</a></button>
+                    <p>밀키스 340ml</p>
                 </div>
                 <div class="item3">
                     <img src="images/gatorade.jpg" alt="게토레이">
-                    <button><a href="#">더보기</a></button>
+                    <p>게토레이 340ml</p>
                 </div>
-                <div class="item4">
-                    <img src="images/demisoda.jpg" alt="데미소다">
-                    <button><a href="#">더보기</a></button>
+            </div>
+            <h2 class="text-center mx3">뉴스룸</h2>
+            <div class="main-news d-flex justify-between">
+                <div class="news1">
+                    <img src="images/news1.jpg" alt="뉴스1">
+                    <p class="mx1">신세계백화점 입점</p>
+                    <button type="submit">더보기</button>
                 </div>
-                <div class="item5">
-                    <img src="images/mogumogu.jpg" alt="모구모구">
-                    <button><a href="#">더보기</a></button>
+                <div class="news2">
+                    <img src="images/news2.jpg" alt="뉴스2">
+                    <p class="mx1">오프라인 매장 오픈</p>
+                    <button type="submit">더보기</button>
                 </div>
-                <div class="item6">
-                    <img src="images/toreta.jpg" alt="토레타">
-                    <button><a href="#">더보기</a></button>
+            </div>
+            <h2 class="text-center mx3">고객센터</h2>
+            <div class="info d-flex  justify-between">
+                    <div class="info-call d-flex flex-column">
+                        <img src="images/Call male.png" alt="전화">
+                        <p class=" align-center text-center">대표전화:080-395-3568</p>
+                    </div>
+                    <div class="info-mail d-flex flex-column">
+                        <img src="images/Email Open.png" alt="이메일">
+                        <p class="align-center text-center">이메일상담:bfood@naver.com</p>
+                    </div>
+            </div>
+            <h3>자주 묻는 질문</h3>
+            <div class="question">
+                <div>
+                    <p>Q.제품 유통기한 뒤에 있는 알파벳 기로는 무엇인가요?</p>
+                    <p>Q.음료,제품등 공급(납품) 관련 문의드리고 싶어요.</p>
+                </div>
+                <div>
+                    <p>Q.제품을 구입할 수 있는 온라인몰이 따로 있나요?</p>
+                    <p>Q.음료 분리배출(라벨제거)방법을 알려주세요.</p>
                 </div>
             </div>
         </main>
@@ -142,7 +173,7 @@
                         <p class="mx1">사업자:123456-12-1234</p>
                         <p class="mx1">대표전화:1577-1234</p>
                     </div>
-                    <div class="fo-center justify-center text-center">
+                    <div class="fo-center mx3 align-center text-center">
                         <p>copyright&copy;bfood.all.rights reserved</p>
                     </div>
                     <div class="fo-right">
