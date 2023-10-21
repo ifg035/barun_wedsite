@@ -272,8 +272,8 @@ font-size:2rem;
    background:pink;
     border-radius:10rem;
 }
-.info-call>p{
-    flex-direction: column;
+.info-call p{
+    margin:3rem 5rem;
 }
 .info-mail img{
     width:180px;
@@ -281,9 +281,11 @@ font-size:2rem;
    background:pink;
     border-radius:10rem;
 }
-.question> p{
-    background: #40401d;
-    border-radius: ;
+.info-mail p{
+    margin:3.5rem 5rem;
+}
+.question p{
+    background:#40401d;
 }
 .grid-container{
     justify-content: center;
