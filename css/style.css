@@ -111,8 +111,12 @@ font-size:2rem;
 .popup button{
     width:40px;
     height: 40px;
+    margin-left:34rem;
+    justify-content:flex-end;
     border-radius: 5rem;
+    
 }
+
 .head_logo img{
     width:100px;
     height:100px;
@@ -272,7 +276,9 @@ font-size:2rem;
    background:pink;
     border-radius:10rem;
 }
-
+.info-call p{
+    margin:3rem 5rem;
+}
 .info-mail img{
     width:180px;
     height:180px;
@@ -282,6 +288,43 @@ font-size:2rem;
 .question> p{
     background: #40401d;
 }
+.info-mail p{
+    margin:3.5rem 5rem;
+}
+
+.ques-1>p:nth-child(1){
+    width:700px;
+    height: 60px;
+    text-align: center;
+    border-radius: 2rem;
+    margin-top:1rem;
+    background: #333;
+}
+.ques-1>p:nth-child(2){
+    width:700px;
+    height: 60px;
+    text-align: center;
+    border-radius: 2rem;
+    margin-top:1rem;
+    background: #333;
+}
+.ques-2>p:nth-child(1){
+    width:700px;
+    height: 60px;
+    text-align: center;
+    border-radius: 2rem;
+    margin-top:1rem;
+    background: #333;
+}
+.ques-2>p:nth-child(2){
+    width:700px;
+    height: 40px;
+    text-align: center;
+    border-radius: 2rem;
+    margin-top:1rem;
+    background: #333;
+}
+
 .grid-container{
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr ;
