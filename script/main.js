@@ -7,4 +7,13 @@ $(function(){
         $(this).children(".sub_menu").stop().slideUp();
     })
 
+
+        //popup 
+    $(".popup button").click(function(){
+        $(".popup").css("display","none");
+    })
+
+    // $(".popup").setInterval(function(){
+    // }, 3000);
+
 })

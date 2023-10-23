@@ -73,6 +73,15 @@ font-size:2rem;
 .mx3{
     margin:3rem 0 ;
 }
+.mb1{
+    margin-bottom:1rem;
+}
+.mb2{
+    margin-bottom:2rem;
+}
+.mb3{
+    margin-bottom:3rem;
+}
 .py1{
     padding: 0 1rem;
 }
@@ -105,18 +114,45 @@ font-size:2rem;
 .popup{
     width:600px;
     height: 400px;
-    background: #333;
+    background: #D9D9D9;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    z-index:99;
 }
-
+.popup h2{
+    margin-bottom: 1rem;
+}
+.po-img{
+    width:32px;
+    height: 39px;
+}
 .popup button{
     width:40px;
     height: 40px;
-    margin-left:34rem;
+    margin:2% 92%;
     justify-content:flex-end;
     border-radius: 5rem;
-    
 }
 
+.po-sale{
+    background-color: #fff;
+    border-bottom:4px dotted #333;
+    width:420px;
+    justify-content: center;
+    margin:0 auto;
+}
+.po-sale h3{
+    z-index: 10;
+    left:29%;
+}
+.po-car{
+    width:420px;
+    justify-content: center;
+    margin:0 auto;
+    background-color: #fff;
+}
 .head_logo img{
     width:100px;
     height:100px;
@@ -165,10 +201,31 @@ font-size:2rem;
 }
 .news-nav{
     font-size: 1.7rem;
-    margin:0 auto ;
+    margin:0 auto;
     font-weight: bold;
     justify-items: center;
     color:#000;
+}
+.point{
+    border-bottom:3px solid green;
+}
+.news-wrap{
+    max-width:1920px;
+}
+.news-img{
+    position: relative;
+    background: url(../images/carousel2.jpg) no-repeat center;
+    height:300px;
+}
+.news-img p{
+    position:absolute;
+    font-size:3rem;
+    font-weight: bold;
+    color:white;
+    text-shadow:0 0 3px #000;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
 
 .newsroom h2{
@@ -203,6 +260,7 @@ font-size:2rem;
     text-align: center;
     border: 1px solid #333;
     border-radius:3rem;
+    margin-bottom:2rem;
 }
 
 .po_items{
@@ -213,7 +271,7 @@ font-size:2rem;
     width: 300px;
     height: 300px;
     margin: 0 auto;
-    background-color: rgb(91, 183, 245);
+    background-color: rgb(81, 151, 94);
     border: 1px solid #333;
     border-radius: 10rem;
 }
@@ -227,6 +285,9 @@ font-size:2rem;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
+}
+.items div{
+    border: 2px solid transparent;
 }
 .items div:hover{
     border: 2px solid #333;
@@ -254,9 +315,11 @@ font-size:2rem;
     width:700px;
     height:400px;
 }
+
 .news1 button{
     width:60px;
     height: 25px;
+    margin-left:90%;
 }
 .news2 img{
     width:700px;
@@ -265,64 +328,53 @@ font-size:2rem;
 .news2 button{
     width:60px;
     height: 25px;
+    margin-left:90%;
+}
+.info{
+    background-color: #e4e4e4;
 }
 .info-call{
-    width: 700px;
+    background:url(../images/Call\ male.png) no-repeat center;
+    width: 600px;
     height: 300px;
 }
-.info-call img{
-    width:180px;
-    height:180px;
-   background:pink;
-    border-radius:10rem;
-}
 .info-call p{
-    margin:3rem 5rem;
+    margin-left:65%;
+    font-size: 1.2rem;
 }
-.info-mail img{
-    width:180px;
-    height:180px;
-   background:pink;
-    border-radius:10rem;
-}
-.question> p{
-    background: #40401d;
+.info-mail{
+    background: url(../images/Email\ Open.png) no-repeat left;
+    width:600px;
+    height:300px;
 }
 .info-mail p{
-    margin:3.5rem 5rem;
+    margin-left:27%;
+    font-size: 1.2rem;
 }
 
-.ques-1>p:nth-child(1){
-    width:700px;
-    height: 60px;
-    text-align: center;
-    border-radius: 2rem;
-    margin-top:1rem;
-    background: #333;
+.ques-box{
+    width:581px;
+    height: 78px;
 }
-.ques-1>p:nth-child(2){
-    width:700px;
-    height: 60px;
+
+.ques-1> p{
     text-align: center;
     border-radius: 2rem;
     margin-top:1rem;
-    background: #333;
+    line-height: 78px;
+    background: #FFFAFA;
+    font-size:1.2rem;
+    border:1px solid #333;
 }
-.ques-2>p:nth-child(1){
-    width:700px;
-    height: 60px;
+
+.ques-2> p{
     text-align: center;
     border-radius: 2rem;
     margin-top:1rem;
-    background: #333;
-}
-.ques-2>p:nth-child(2){
-    width:700px;
-    height: 40px;
-    text-align: center;
-    border-radius: 2rem;
-    margin-top:1rem;
-    background: #333;
+    line-height: 78px;
+    background: #FFFAFA;
+    font-size:1.2rem;
+    border:1px solid #333;
 }
 
 .grid-container{
