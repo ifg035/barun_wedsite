@@ -428,3 +428,11 @@ font-size:2rem;
     margin:0 3px;
 }
 /*========================= /footer ============================*/
+@media screen and (max-width:600px){
+    .wrap{
+        max-width: 600px;
+    }
+    .popup{
+        margin:5rem 0 0 11rem;
+    }
+}

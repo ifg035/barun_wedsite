@@ -17,3 +17,6 @@ $(function(){
     // }, 3000);
 
 })
+
+
+// media query
