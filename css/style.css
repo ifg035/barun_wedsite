@@ -240,8 +240,7 @@ font-size:2rem;
 
 /*========================= /header ============================*/
 
-.cloud{
-    background: url(../images/cloud.jpg);
+.forest{
     width:1440px;
     height: 600px;
     margin: 3rem 0;
@@ -431,8 +430,29 @@ font-size:2rem;
 @media screen and (max-width:600px){
     .wrap{
         max-width: 600px;
+        overflow:hidden;
     }
     .popup{
-        margin:5rem 17rem;
+        display:none;
+    }
+    .head{
+        justify-content:space-between;
+    }
+    .head_logo img{
+        width:60px;
+        height:60px;
+    }
+    .nav{
+        display: none;
+    }
+    .mo-lan{
+        display: none;
+    }
+    .mo-login{
+        display:block;
+    }
+    .forest img{
+        width:600px;
+        height:240px;
     }
 }
