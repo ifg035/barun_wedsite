@@ -240,7 +240,7 @@ font-size:2rem;
 
 /*========================= /header ============================*/
 
-.forest{
+.forest img{
     width:1440px;
     height: 600px;
     margin: 3rem 0;
@@ -264,9 +264,10 @@ font-size:2rem;
 
 .po_items{
     display: flex;
-    margin:5rem 5rem;
+    margin:3rem 3rem;
+    padding:0 3rem;
 }
-.po_box{
+.po_box1{
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -274,7 +275,31 @@ font-size:2rem;
     border: 1px solid #333;
     border-radius: 10rem;
 }
-.po_box h3{
+.po_box2{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(81, 151, 94);
+    border: 1px solid #333;
+    border-radius: 10rem;
+}
+.po_box3{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(81, 151, 94);
+    border: 1px solid #333;
+    border-radius: 10rem;
+}
+.po_box1 h3{
+    font-size:1.7rem;
+    margin: 3rem 3rem;
+}
+.po_box2 h3{
+    font-size:1.7rem;
+    margin: 3rem 3rem;
+}
+.po_box3 h3{
     font-size:1.7rem;
     margin: 3rem 3rem;
 }
@@ -306,6 +331,8 @@ font-size:2rem;
     height:400px;
 }
 .main-news{
+    display: flex;
+    justify-content:space-between;
     font-size: 1.3rem;
     margin: 1rem 0;
 }
@@ -428,8 +455,11 @@ font-size:2rem;
 }
 /*========================= /footer ============================*/
 @media screen and (max-width:600px){
+    body h2{
+        font-size: 1.2rem;
+    }
     .wrap{
-        max-width: 600px;
+        max-width:600px;
         overflow:hidden;
     }
     .popup{
@@ -445,14 +475,108 @@ font-size:2rem;
     .nav{
         display: none;
     }
+    .mo-site{
+        align-items: center;
+
+    }
     .mo-lan{
         display: none;
     }
     .mo-login{
         display:block;
     }
-    .forest img{
-        width:600px;
-        height:240px;
+    .mo-login img{
+        width: 20px;
+        height: 20px;
     }
+    .mo-menu{
+        margin-right:0 1rem;
+    }
+    .mo-menu img{
+        width: 30px;
+        height: 20px;
+    }
+    /*--------------------------/header---------------------------------*/
+    .forest{
+        width:600px;
+        height:200px;
+        background:url(../images/forset.jpg) no-repeat center/cover ;
+    }
+    .pc-forest{
+        display: none;
+    }
+    .po-title{
+        align-items: center;
+    }
+    .po-title h2{
+        text-align:center;
+    }
+    .mo_box1{
+        width: 200px;
+        height: 200px;
+    }
+    .mo_box1 h3{
+        font-size:1.3rem;
+        margin: 2rem 2rem;
+    }
+    .mo_box1 p{
+        font-size:.72rem;
+    }
+    .mo_box2{
+        display: none;
+    }
+    .mo_box2 h3{
+        font-size:1.3rem;
+        margin: 2rem 2rem;
+    }
+    .mo_box2 p{
+        font-size:.72rem;
+    }
+    .mo_box3{
+        display: none;
+    }
+    .mo_box3 h3{
+        font-size:1.3rem;
+        margin: 2rem 2rem;
+    }
+    .mo_box3 p{
+        font-size:.72rem;
+    }
+    .tag{
+        display: none;
+    }
+    .mo-items{
+        justify-content: center;
+        margin:0 auto;
+
+    }
+    .mo-item1{
+        height:300px;
+    }
+    .mo-item2{
+        display: none;
+    }
+    .mo-item3{
+        display: none;
+    }
+    .mo-news-item{
+        display: block;
+        margin: 0 auto;
+    }
+    .mo-new1{
+        width: 400px;
+        height: 200px;
+    }
+    .mo-new1 img{
+    }
+    .mo-new2 img{
+        width:400px;
+        height: 200px;
+    }
+    /*--------------------------/main---------------------------------*/
+    
+    /*--------------------------/footer---------------------------------*/
 }
+/* main img{
+    width:100px !important;
+} */
