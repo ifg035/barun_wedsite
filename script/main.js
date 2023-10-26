@@ -8,15 +8,19 @@ $(function(){
     })
 
 
-        //popup 
+    //popup 
     $(".popup button").click(function(){
         $(".popup").css("display","none");
     })
 
     // $(".popup").setInterval(function(){
     // }, 3000);
-
-})
+    $('.forest').slick({
+        autoplay:true,
+        autoplaySpeed:4000,
+        dots:true
+    })
+});
 
 
 // media query
