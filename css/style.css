@@ -150,6 +150,10 @@ font-size:2rem;
     z-index: 10;
     left:29%;
 }
+.po-sale p{
+    margin-right:2rem;
+}
+
 .po-car{
     width:420px;
     justify-content: center;
@@ -248,6 +252,13 @@ font-size:2rem;
     width:1440px;
     height: 600px;
     margin: 3rem 0;
+}
+
+.slick-arrow {
+    display: none; 
+}
+.slick-dots{
+    display:none;
 }
 .search-input button{
     width: 70px;
@@ -468,9 +479,41 @@ font-size:2rem;
         max-width:600px;
         overflow:hidden;
     }
-    
     .popup{
-        display:none;
+       width:400px;
+       height: 400px;
+    }
+    .popup button{
+        justify-content: flex-start;
+        margin: 2%  88%;
+    }
+    .po-sale{
+        width:365px;
+        height:120px;
+    }
+    .po-sale img{
+        margin-right:.8rem;
+    }
+    .po-sale h3{
+        left:21%;
+        z-index:10
+    }
+    .po-sale p{
+        font-size:.8rem ;
+        margin-right:.9rem;
+        left:5%
+    }
+    .po-carimg{
+        margin-left:1.5rem;
+    }
+    .po-car{
+        width:365px;
+        height:120px;
+    }
+ 
+    .po-car p{
+        font-size:.8rem ;
+        margin-left:2.2rem;
     }
     .mo-logo{
         margin:2rem 0;
@@ -529,10 +572,11 @@ font-size:2rem;
     .grid-text{
         font-size:.85rem;
     }
-    .forest{
+
+    .forest img{
         width:600px;
-        height:200px;
-        background:url(../images/forset.jpg) no-repeat center/cover ;
+        height: 300px;
+        margin: 3rem 0;
     }
     .pc-forest{
         display: none;
@@ -678,6 +722,4 @@ font-size:2rem;
     }
     /*--------------------------/footer---------------------------------*/
 
-/* main img{
-    width:100px !important;
-} */
+
