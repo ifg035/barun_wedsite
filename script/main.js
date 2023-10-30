@@ -20,6 +20,16 @@ $(function(){
         autoplaySpeed:4000,
         arrows:false,
     })
+
+
+    //mobile nav
+    let isMobile =screen.availWidth < 320 && screen.availWidth > 600;
+    $(".mo-navbtn").on("click",function(){
+        if(isMobile) {
+            console.log("누름")
+        }
+    })
+
 });
 
 
