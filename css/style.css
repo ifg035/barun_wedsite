@@ -597,7 +597,9 @@ font-size:2rem;
     .grid-text{
         font-size:.85rem;
     }
-
+    .nav{
+        display: none;
+    }
     .forest img{
         width:600px;
         height: 300px;
