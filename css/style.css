@@ -15,7 +15,13 @@ input{
     border-radius:1.25rem;
     font-size:20px;
 }
-
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
 .d-flex{
     display: flex;
 }
@@ -540,9 +546,7 @@ font-size:2rem;
         height:60px;
         margin:2rem;
     }
-    .mo-nav-title{
   
-    }
     .mo-news-navi{
         display: none;
     }
