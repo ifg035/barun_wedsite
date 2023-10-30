@@ -41,6 +41,14 @@ $(function(){
                 isClicked = true;
             }
         }
+        $(".lnb_opener").on("click",function(){
+            if(isMobile){
+                if(isClicked){
+                    $(".lnb_opener span").css("display","none");
+                    $("sub_menu")
+                }
+            }
+        })
     })
 
 });
