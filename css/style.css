@@ -3,7 +3,14 @@
 :root{
   --text-color:#000;
   --body-color:#fff;
-
+  --sub-color:#9898;
+}
+html{
+    font-size: 20px;
+}
+button{
+    background: none;
+    border:0;
 }
 .wrap{
     max-width:1440px;
@@ -122,7 +129,6 @@ font-size:2rem;
 /*========================= /공통 스타일 ============================*/
 .popup{
     width:600px;
-    height: 400px;
     background: #D9D9D9;
     position: absolute;
     left:50%;
@@ -154,7 +160,7 @@ font-size:2rem;
 }
 .po-sale h3{
     z-index: 10;
-    left:29%;
+    left:25%;
 }
 .po-sale p{
     margin-right:2rem;
@@ -191,10 +197,13 @@ font-size:2rem;
 .mo-menu{
     display: none;
 }
+.mo-nav button{
+    display: none;
+}
 .sub_menu{
     width:100%;
     display: none;
-    position:absolute;
+    /* position:absolute; */
     font-size: 1rem;
     align-items: center;
     background: #fff;
@@ -213,7 +222,7 @@ font-size:2rem;
 .logo img{
     width:100px;
     height:100px;
-    margin:0 2rem;  
+    margin:2rem 2rem;  
 }
 
 .home img{
@@ -421,7 +430,7 @@ font-size:2rem;
     margin-top:1rem;
     line-height: 78px;
     background: #FFFAFA;
-    font-size:1.2rem;
+    font-size:1.1rem;
     border:1px solid #333;
 }
 
@@ -486,26 +495,35 @@ font-size:2rem;
     margin:0 3px;
 }
 /*========================= /footer ============================*/
-@media screen and (max-width:600px){
+@media screen and (max-width:393px){
     body h2{
         font-size: 1.2rem;
+    }
+    header{
+        position:fixed;
+        width:100%;
+        z-index:10;
+        background: #fff;
     }
     .wrap{
         max-width:600px;
         overflow:hidden;
     }
-    .popup{
-        display:none;
-       width:400px;
-       height: 400px;
+    .mo-popup{
+       top:100%;
+       width:340px;
+       height: 260px;
+    }
+    .mo-popup h2{
+        font-size:1rem ;
     }
     .popup button{
         justify-content: flex-start;
         margin: 2%  88%;
     }
     .po-sale{
-        width:365px;
-        height:120px;
+        width:300px;
+        height:75px;
     }
     .po-sale img{
         margin-right:.8rem;
@@ -515,24 +533,27 @@ font-size:2rem;
         z-index:10
     }
     .po-sale p{
-        font-size:.8rem ;
+        font-size:.7rem ;
         margin-right:.9rem;
         left:5%
     }
-    .po-carimg{
+    .po-car img{
         margin-left:1.5rem;
     }
     .po-car{
-        width:365px;
-        height:120px;
+        width:300px;
+        height:75px;
     }
  
     .po-car p{
         font-size:.8rem ;
         margin-left:2.2rem;
     }
+    .mo-popup-text{
+        display: none;
+    }
     .mo-logo{
-        margin:2rem 0;
+        margin:.5rem .5rem;
     }
     .head{
         justify-content:space-between;
@@ -550,15 +571,86 @@ font-size:2rem;
     .mo-news-navi{
         display: none;
     }
-   .nav_menu{
+    .nav_menu{
         font-size: 1.2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+    .mo-nav button {
+        display:inline-block;
+        
+    }
+    .mo-nav_menu{
+        border-top:3px solid #000;
+        background: var(--body-color);
+        width:300px;
+        height:400px;
+        position:fixed;
+        right:0;
+        top:135px;
+        z-index:20;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        
+    }
+    .mo-nav_menu a{
+        font-size: 1.1rem;
+        
+    }
+    .mo-nav {
+        position: relative;
+        width:300px;
+        margin: 1rem;
+    }
     
-    .mo-nav{
-        display: none;
+    .mo-dropdown{
+        position: absolute;
+        right:1rem
+    }
+    .mo-navbtn span{
+        z-index: 21;
+    }
+    .mo-submenu1{
+        flex-direction: column;
+    }
+    .mo-submenu1 li a{
+        font-size: .8rem;
+        color:#1f1f1f
+    }
+    .mo-submenu1 li:hover{
+        background:rgba(102, 101, 102, 0.933);
+    }
+    .mo-submenu2{
+        flex-direction: column;
+    }
+    .mo-submenu2 li a{
+        font-size: .8rem;
+        color:#1f1f1f
+    }
+    .mo-submenu2:hover{
+        background:rgba(102, 101, 102, 0.933);
+    }
+    .mo-submenu3{
+        flex-direction: column;
+    }
+    .mo-submenu3 li a{
+        font-size: .8rem;
+        color:#1f1f1f
+    }
+    .mo-submenu3:hover{
+        background:rgba(102, 101, 102, 0.933);
+    }
+    .mo-submenu4{
+        flex-direction: column;
+    }
+    .mo-submenu4 li a{
+        font-size: .8rem;
+        color:#1f1f1f
+    }
+    .mo-submenu4:hover{
+        background:rgba(102, 101, 102, 0.933);
     }
     .mo-site{
         align-items: center;

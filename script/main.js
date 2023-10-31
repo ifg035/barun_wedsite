@@ -1,10 +1,10 @@
 // nav_menu 
 $(function(){
     $(".nav_menu li").mouseenter(function(){
-        $(this).children(".sub_menu").stop().slideDown();
+        $(this).children(".sub_menu").stop().slideToggle();
     })
     $(".nav_menu li").mouseleave(function(){
-        $(this).children(".sub_menu").stop().slideUp();
+        $(this).children(".sub_menu").stop().slideToggle();
     })
 
 
@@ -40,15 +40,16 @@ $(function(){
                 $(".nav").css("display","none");
                 isClicked = true;
             }
-        }
-        $(".lnb_opener").on("click",function(){
-            if(isMobile){
-                if(isClicked){
-                    $(".lnb_opener span").css("display","none");
-                    $("sub_menu")
-                }
+    $(".lnb_opener").on("click",function(){
+        if(isClicked){
+
+            } else {
+    
             }
-        })
+                       
+                
+            })
+        }
     })
 
 });
