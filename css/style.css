@@ -180,13 +180,14 @@ font-size:2rem;
 
 .nav-box{
     width:170px;
-    height:34px;
+    /* height:34px; */
     text-align: center;
 }
 .nav_menu{
     font-size: 1.5rem;
     font-weight: bold;
-    justify-items: center;
+    /* justify-items: center; */
+
 }
 .nav_menu > li{
     position: relative;
@@ -207,7 +208,7 @@ font-size:2rem;
     font-size: 1rem;
     align-items: center;
     background: #fff;
-    z-index:99
+    z-index: 999;
 }
 .sub_menu li:hover{
     background:#333;
@@ -466,14 +467,33 @@ font-size:2rem;
 }
 
 .griditems{
-    width:376px;
-    height:376px;
+
     margin: 2rem auto;
     border:1px solid #333;
     border-radius: 1.3rem;
     background: #fefefe;
 }
-
+.grid-btn{
+    width:100%;
+    display:flex;
+    margin: 0 97%;
+    margin-bottom:1rem;
+    justify-content:center;
+    text-align:center;
+}
+.btn-left{
+    background-color:#c8c8c8;
+    border-radius:.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right:2rem;
+}
+.btn-right{
+    background-color:#c8c8c8;
+    border-radius:.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 /*========================= /main ============================*/
 
 .carsousel{
@@ -585,14 +605,14 @@ font-size:2rem;
         border-top:3px solid #000;
         background: var(--body-color);
         width:300px;
-        height:400px;
+        /* height:400px; */
         position:fixed;
         right:0;
         top:135px;
         z-index:20;
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        /* justify-content:center; */
         
     }
     .mo-nav_menu a{
@@ -807,7 +827,7 @@ font-size:2rem;
         flex-direction: column;
         justify-content: center;
     }
-     .mo-call p{
+    .mo-call p{
         font-size: 1rem;
         margin:0;
         margin-top:10rem;
