@@ -547,10 +547,11 @@ font-size:2rem;
         height:75px;
     }
     .po-sale img{
+        width:40%;
         margin-right:.8rem;
     }
     .po-sale h3{
-        left:21%;
+        left:18%;
         z-index:10
     }
     .po-sale p{
@@ -559,7 +560,7 @@ font-size:2rem;
         left:5%
     }
     .po-car img{
-        margin-left:1.5rem;
+        margin-left:.6rem;
     }
     .po-car{
         width:300px;
@@ -567,8 +568,14 @@ font-size:2rem;
     }
  
     .po-car p{
-        font-size:.8rem ;
-        margin-left:2.2rem;
+        font-size:.625rem
+    }
+    .po-carimg{
+        width:24px;
+        margin-right:1.3rem
+    }
+    .down{
+        width:70px
     }
     .mo-popup-text{
         display: none;
