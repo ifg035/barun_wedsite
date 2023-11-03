@@ -180,7 +180,7 @@ font-size:2rem;
 
 .nav-box{
     width:170px;
-    height:34px;
+    /* height:34px; */
     text-align: center;
 }
 .nav_menu{
@@ -223,7 +223,7 @@ font-size:2rem;
 
 .logo img{
     width:100px;
-    height:100px;
+    /* height:100px; */
     margin:2rem 2rem;  
 }
 
@@ -599,12 +599,12 @@ font-size:2rem;
     .mo-news-navi{
         display: none;
     }
-    .nav_menu{
+    /* .nav_menu{
         font-size: 1.2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } */
     .mo-nav button {
         display:inline-block;
         
@@ -627,7 +627,7 @@ font-size:2rem;
         font-size: 1.1rem;
         
     }
-    .mo-nav {
+    .nav-box {
         position: relative;
         width:300px;
         margin: 1rem;
