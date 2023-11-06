@@ -180,8 +180,11 @@ font-size:2rem;
 
 .nav-box{
     width:170px;
-    height:34px;
     text-align: center;
+}
+
+.nav-box a{
+    height: 34px;
 }
 .nav_menu{
     font-size: 1.5rem;
