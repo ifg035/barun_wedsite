@@ -593,6 +593,12 @@ font-size:2rem;
         max-width:600px;
         overflow:hidden;
     }
+    .news-img{
+        height:350px;
+    }
+    .news-img p{
+        top:70%;
+    }
     .mo-popup{
        top:100%;
        width:340px;
