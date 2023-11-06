@@ -485,6 +485,7 @@ font-size:2rem;
 }
 
 .ques-1> p{
+    display: flex;
     text-align: center;
     border-radius: 2rem;
     margin-top:1rem;
@@ -921,8 +922,15 @@ font-size:2rem;
         text-align: center;
      }
      .ques-1 p{
+        display: none;
         font-size: 0.698rem;
      }   
+     .ques-2{
+         margin:0 auto;
+         display:block;
+         align-items: center;
+     }
+
      .ques-2 p{
         font-size: .698rem;
      }
