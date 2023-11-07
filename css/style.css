@@ -206,9 +206,10 @@ font-size:2rem;
     display: none;
 }
 .sub_menu{
+    border:1px solid #333;
     width:100%;
     display: none;
-    /* position:absolute; */
+    position:absolute;
     font-size: 1rem;
     align-items: center;
     background: #fff;
@@ -268,6 +269,9 @@ font-size:2rem;
     text-align:center;
 }
 
+.border-gr{
+    border-bottom:3px solid green;
+}
 
 
 
@@ -594,7 +598,7 @@ font-size:2rem;
         overflow:hidden;
     }
     .news-img{
-        height:350px;
+        height:300px;
     }
     .news-img p{
         top:70%;
@@ -664,16 +668,7 @@ font-size:2rem;
         height:60px;
         margin:2rem;
     }
- 
-    .mo-news-navi{
-        display: none;
-    }
-    /* .nav_menu{
-        font-size: 1.2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
+
     .mo-nav button {
         display:inline-block;
         
@@ -682,27 +677,22 @@ font-size:2rem;
         border-top:3px solid #000;
         background: var(--body-color);
         width:300px;
-        /* height:400px;  */
         position:fixed;
         right:0;
         top:135px;
         z-index:20;
         display: flex;
         flex-direction: column;
-        /* justify-content:center; */
         
     }
     .mo-nav_menu a{
         font-size: 1.1rem;
         
     }
-    
-
     .nav-box {
         position: relative;
         width:300px;
         margin: 1rem;
-        
     }
     
     .mo-dropdown{
@@ -712,7 +702,18 @@ font-size:2rem;
     .mo-navbtn span{
         z-index: 21;
     }
+    .sub_menu{
+        display: none;
+    }
     .mo-submenu1{
+        position:static;
+        background:white;
+        border:1px solid #333;
+        width:100%;
+        font-size: 1rem;
+        align-items: center;
+        background: #fff;
+        z-index: 999;
         flex-direction: column;
     }
     .mo-submenu1 li a{
@@ -723,6 +724,8 @@ font-size:2rem;
         background:rgba(102, 101, 102, 0.933);
     }
     .mo-submenu2{
+        position:static;
+        background:white;
         flex-direction: column;
     }
     .mo-submenu2 li a{
@@ -733,6 +736,8 @@ font-size:2rem;
         background:rgba(102, 101, 102, 0.933);
     }
     .mo-submenu3{
+        position:static;
+        background:white;
         flex-direction: column;
     }
     .mo-submenu3 li a{
@@ -743,6 +748,8 @@ font-size:2rem;
         background:rgba(102, 101, 102, 0.933);
     }
     .mo-submenu4{
+        position:static;
+        background:white;
         flex-direction: column;
     }
     .mo-submenu4 li a{
