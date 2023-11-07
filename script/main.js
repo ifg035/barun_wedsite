@@ -39,16 +39,7 @@ $(function(){
                 $(".mo-navbtn span").text("menu");
                 $(".nav").css("display","none");
                 isClicked = true;
-            }
-    $(".lnb_opener").on("click",function(){
-        if(isClicked){
-
-            } else {
-    
-            }
-                       
-                
-            })
+            }  
         }
     })
 
