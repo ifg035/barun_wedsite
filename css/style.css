@@ -341,7 +341,7 @@ font-size:2rem;
 }
 .po_box2::before{
     content:"";
-    background: url(../images/안전.jpg) no-repeat center;
+    background: url(../images/safe.jpg) no-repeat center;
     background-size:cover;
     opacity: 0.3;
     position:absolute;
@@ -360,7 +360,7 @@ font-size:2rem;
 }
 .po_box3::before{
     content:"";
-    background: url(../images/소비자.jpg) no-repeat center;
+    background: url(../images/consumer.jpg) no-repeat center;
     background-size:cover;
     opacity: 0.3;
     position:absolute;
@@ -466,7 +466,7 @@ font-size:2rem;
     background-color: #e4e4e4;
 }
 .info-call{
-    background:url(../images/Call\ male.png) no-repeat center;
+    background:url(../images/callmale.png) no-repeat center;
     width: 600px;
     height: 300px;
 }
