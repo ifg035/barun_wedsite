@@ -6,4 +6,7 @@
 - 자유롭게 디자인하되 주제에 맞게 제작
 
 # 진행사항
-- slick carousel 적용 (10.26)
+- popup 배치 후 닫기버튼 적용 
+- slick carousel 적용 
+- 
+- favicon 적용 
