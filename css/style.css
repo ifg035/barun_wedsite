@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charsefoot "utf-8";
 
 :root{
   --text-color:#000;
@@ -568,17 +568,27 @@ font-size:2rem;
     top:0;
     left:0;
 }
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
 .fo-left{
     line-height: 1.25rem;
+    width:500px;
 }
-
+.fo-right{
+    width:130px;
+}
+.fo-center{
+    margin-bottom:1rem;
+}
 .sns img{
     width:30px;
     height:30px;
     margin:0 3px;
 }
 /*========================= /footer ============================*/
-@media screen and (max-width:600px){
+@media screen and (max-width:393px){
     body h2{
         font-size: 1.2rem;
     }
@@ -589,7 +599,7 @@ font-size:2rem;
         background: #fff;
     }
     .wrap{
-        max-width:600px;
+        max-width:393px;
         overflow:hidden;
     }
     .news-img{
@@ -694,9 +704,9 @@ font-size:2rem;
         position: absolute;
         right:1rem
     }
-    .mo-navbtn span{
+    /* .mo-navbtn span{
         z-index: 21;
-    }
+    } */
     .sub_menu{
         display: none;
     }
@@ -796,10 +806,11 @@ font-size:2rem;
         display: none;
     }
     .forest img{
-        width:600px;
+        width:100%;
         height: 300px;
         margin: 3rem 0;
     }
+   
     .pc-forest{
         display: none;
     }
@@ -853,13 +864,37 @@ font-size:2rem;
     }
     .mo-items{
         display: flex;
+        align-items: center;
         flex-direction: column;
         justify-content: center;
+        border: 2px solid transparent;
         margin:0 auto;
         height: auto;
     }
     .mo-item1{
-        height:500px;
+        margin-right:25%;
+    }
+    .mo-item1 img{
+        margin:0 auto;
+        width:300px;
+        height: 270px;
+    }
+    .mo-item2{
+        margin-right:25%;
+    }
+    .mo-item2 img{
+        margin:0 auto;
+        width:300px;
+        height: 300px;
+    }
+    .mo-item3{
+        margin-right:25%;
+        padding-top:1rem 0;
+    }
+    .mo-item3 img{
+        margin:0 auto;
+        width:300px;
+        height: 300px;
     }
     
     .mo-item3{
@@ -870,7 +905,7 @@ font-size:2rem;
         text-align:center;
         display: block;
         width:100px;
-        margin:auto;
+        margin:1rem auto;
         /* box-shadow: 1px 1px; */
         justify-content:space-around;
         align-items:center;
@@ -883,35 +918,40 @@ font-size:2rem;
     }
     .mo-new1{
         display:block;
-        width: 400px;
-        margin:0 100px;
+        width: 300px;
+        margin:0 auto;
     }
-    
-    .mo-new1 img{
-        display:block;
-        width:400px;
-        height: 200px;
+    .mo-new1 p{
+        font-size:1rem;
     }
     .mo-new1 button{
-        margin:0 auto;
-        margin:1rem 0;  
+        margin-left:12rem;
     }
-    .mo-new2{
+    .mo-new1 img{
         display:block;
-        width: 400px;
-        margin:0 100px ;
-    }
-    
-    .mo-new2 img{
-        display:block;
-        width:400px;
+        width:300px;
         height: 200px;
     }
-    .mo-new2 button{
+    .mo-new2{
+        padding:1rem 0;
+        display:block;
+        width: 300px;
         margin:0 auto;
-        margin:1rem 0;  
     }
-    
+    .mo-new2 p{
+        font-size:1rem;
+    }
+    .mo-new2 button{
+        margin-left:12rem;
+    }
+    .mo-new2 img{
+        display:block;
+        width:300px;
+        height: 200px;
+    }
+    .mo-info{
+        width:100%;
+    }
     .mo-call{
         display: flex;
         flex-direction: column;
@@ -938,6 +978,9 @@ font-size:2rem;
         margin-top:10rem;
         text-align: center;
      }
+     .mo-quse-title{
+        margin:3rem 0 0 0 ;
+     }
      .ques-1 p{
         display: none;
         font-size: 0.698rem;
@@ -952,7 +995,8 @@ font-size:2rem;
         font-size: .698rem;
      }
      .ques-box{
-        margin:0 1rem;
+        width:100%;
+        margin:0 auto;
      }
      .grid-btn{
         width:200px;
@@ -964,19 +1008,17 @@ font-size:2rem;
 
      /*--------------------------/main---------------------------------*/
      .mo-foleft{
-        font-size: 0.7rem;
-        width:200px;
+        margin:2rem auto;
+        padding: 0;
+        line-height: 5px;
+        font-size: 0.5rem;
      }
      .mo-focenter{
         width:200px;
-        font-size:0.6rem;
-        display: flex;
-        margin-top:10rem;   
-        margin-right:2.89rem;
+        font-size: 0.5rem;
+        margin:0 auto;
+        padding-bottom:1rem ;
     }
-     .fo-right{
-        margin-right: 3rem;
-     }
     }
     /*--------------------------/footer---------------------------------*/
 

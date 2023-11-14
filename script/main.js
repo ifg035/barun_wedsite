@@ -9,12 +9,11 @@ $(function(){
 
 
     //popup 
+    
     $(".popup button").click(function(){
         $(".popup").css("display","none");
     })
 
-    // $(".popup").setInterval(function(){
-    // }, 3000);
     $('.forest').slick({
         autoplay:true,
         autoplaySpeed:4000,
@@ -25,7 +24,7 @@ $(function(){
     //mobile nav
     // menu button 클릭시 nav를 on,off를 하면서
     // =를 x로, x를 =로 변경
-    let isMobile =screen.availWidth > 320 && screen.availWidth <= 600;
+    let isMobile =screen.availWidth > 320 && screen.availWidth <= 393;
     let isClicked = true;
     $(".mo-navbtn").on("click", function(){
         if(isMobile) {
