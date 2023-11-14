@@ -795,6 +795,31 @@ font-size:2rem;
         flex-direction: column;
         justify-content: center;
     }
+    .mo-grid1{
+        width:350px;
+    }
+    .mo-grid1 img{
+        width:75%;
+    }
+    .mo-grid2{
+        width:350px;
+    }
+    .mo-grid2 img{
+        width:75%;
+    }
+    .mo-grid3{
+        width:350px;
+    }
+    .mo-grid3 img{
+        width:75%;
+    }
+    .mo-grid4{
+        width:350px;
+    }
+    .mo-grid4 img{
+        width:75%;
+    }
+    
     .mo-grid5, .mo-grid6, .mo-grid7 ,.mo-grid8, .mo-grid9{
         display:none;
     }
@@ -995,20 +1020,30 @@ font-size:2rem;
         font-size: .698rem;
      }
      .ques-box{
-        width:100%;
+        width:90%;
         margin:0 auto;
      }
      .grid-btn{
         width:200px;
-        display:block;
-        padding-left:1rem ;
+        display:flex;
         margin:1rem auto;
         justify-content: center;
      }
-
+     .btn-left{
+        border:.3px solid #333;
+        width:100px;
+        height:40px;
+        border-radius: .5rem;
+     }
+     .btn-right{
+        border:.3px solid #333;
+        width:100px;
+        height:40px;
+        border-radius: .5rem;
+     }
      /*--------------------------/main---------------------------------*/
      .mo-foleft{
-        margin:2rem auto;
+        margin:2rem  0 0 .5rem;
         padding: 0;
         line-height: 5px;
         font-size: 0.5rem;
