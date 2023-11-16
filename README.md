@@ -8,5 +8,5 @@
 # 진행사항
 - popup 배치 후 닫기버튼 적용 
 - slick carousel 적용 
-- 
 - favicon 적용 
+- opengraph 적용완료
