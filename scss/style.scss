@@ -348,7 +348,10 @@ h2 {
 }
 
 /*========================= /header ============================*/
-.item-comtainer{
+.mo-item{
+    display: none;
+}
+.item-container{
     justify-content:center;
     text-align: center;
     margin:0 9.25rem;
@@ -373,6 +376,26 @@ h2 {
         p{
             margin:2rem;
         }
+    }
+    .pc-item{
+        display:flex;
+        width:1030px;
+        align-items: center;
+        margin:2rem;
+        img{
+            width:300px;
+            height: 300px;
+            border-radius:10rem;
+        }
+        h4{
+            color:#369B40;
+        }
+        p{
+            margin:2rem;
+        }
+    }
+    .mo-item{
+        display:none;
     }
 }
 .forest img {
@@ -723,6 +746,9 @@ h2 {
 
 /*========================= /footer ============================*/
 @media screen and (max-width: 393px) {
+    .mo-item{
+        display:block;
+    }
   body h2 {
     font-size: 1.2rem;
   }
@@ -914,6 +940,71 @@ h2 {
     height: 20px;
   }
   /*--------------------------/header---------------------------------*/
+  .item-container{
+    margin:0;
+    padding:0;
+    display:static;
+    h2 {
+        font-size: 1.5rem;
+    }
+        .items-company{
+            .pc-item{
+                display:none;
+            }
+            .mo-item{
+            display:inline;
+            width:320px;
+            height: 380px;
+            img{
+                width:182px;
+                height:182px;
+            }
+            span{
+                margin:0 9.65rem;
+                justify-content: center;
+                display: block;
+                content:"";
+                width:7px;
+                height: 30px;
+                background:#369B40
+            }
+            p{
+                font-size:0.85rem;
+                margin:0;
+                padding: 0;
+            }
+            }
+            .item{
+                align-items:center;
+                justify-content: center;
+                display:inline;
+                width:320px;
+                height:380px;
+                img{
+                    width:182px;
+                    height:182px;
+                }
+                span{
+                    margin:0 9.65rem;
+                    justify-content: center;
+                    display: block;
+                    content:"";
+                    width:7px;
+                    height: 30px;
+                    background:#369B40
+                }
+                h4{
+                    color:#369B40;
+                }
+                p{
+                    text-align:center;
+                    font-size:0.85rem;
+                    margin:0;
+                    padding: 0;
+                }
+            }
+        }
+    } 
   .newsroom h2 {
     font-size: 1.5rem;
   }
