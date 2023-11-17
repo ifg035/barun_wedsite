@@ -940,6 +940,11 @@ h2 {
     height: 20px;
   }
   /*--------------------------/header---------------------------------*/
+  .com-img{
+    p{
+      top:68%;
+    }
+  }
   .item-container{
     margin:0;
     padding:0;
@@ -948,6 +953,7 @@ h2 {
         font-size: 1.5rem;
     }
         .items-company{
+          padding: 3rem 0;
             .pc-item{
                 display:none;
             }
@@ -955,29 +961,34 @@ h2 {
             display:inline;
             width:320px;
             height: 380px;
-            img{
-                width:182px;
-                height:182px;
-            }
-            span{
-                margin:0 9.65rem;
-                justify-content: center;
-                display: block;
-                content:"";
-                width:7px;
-                height: 30px;
-                background:#369B40
-            }
-            p{
-                font-size:0.85rem;
-                margin:0;
-                padding: 0;
-            }
+              img{
+                  width:182px;
+                  height:182px;
+                  border-radius:10rem;
+              }
+              span{
+                  margin:.5rem 9.65rem;
+                  display: block;
+                  content:"";
+                  width:7px;
+                  height: 30px;
+                  background:#369B40;
+              }
+              h4{
+                color:#6FBD5A;
+              }
+              p{
+                  font-size:0.85rem;
+                  margin:0;
+                  padding-bottom:3rem;
+              }
             }
             .item{
                 align-items:center;
                 justify-content: center;
                 display:inline;
+                padding:3rem 0;
+                margin:5rem 0;
                 width:320px;
                 height:380px;
                 img{
@@ -985,12 +996,12 @@ h2 {
                     height:182px;
                 }
                 span{
-                    margin:0 9.65rem;
+                    margin:.5rem 9.65rem;
                     justify-content: center;
                     display: block;
                     content:"";
                     width:7px;
-                    height: 30px;
+                    height:30px;
                     background:#369B40
                 }
                 h4{
@@ -1000,7 +1011,7 @@ h2 {
                     text-align:center;
                     font-size:0.85rem;
                     margin:0;
-                    padding: 0;
+                    padding-bottom:3rem;
                 }
             }
         }

@@ -7,11 +7,11 @@ $(function(){
         $(this).children(".sub_menu").stop().slideToggle();
     })
 
-    // $('.forest').slick({
-    //     autoplay:true,
-    //     autoplaySpeed:4000,
-    //     arrows:false,
-    // })
+    $('.forest').slick({
+        autoplay:true,
+        autoplaySpeed:4000,
+        arrows:false,
+    })
 
     //popup 
     
