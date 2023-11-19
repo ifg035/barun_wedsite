@@ -11,7 +11,7 @@
 - favicon 적용 
 - opengraph 적용완료
 
-# 링크
+# links
 -dothome
 http://icetea.dothome.co.kr/barun
 
