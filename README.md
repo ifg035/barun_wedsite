@@ -11,5 +11,12 @@
 - favicon 적용 
 - opengraph 적용완료
 
-  # 링크
-  http://icetea.dothome.co.kr/barun
+# 링크
+-dothome
+http://icetea.dothome.co.kr/barun
+
+-figma (PC)
+https://www.figma.com/file/CZYCSY4KFwP3g3zYhuxaOJ/%EB%B0%94%EB%A5%B8%ED%91%B8%EB%93%9C?type=design&node-id=0%3A1&mode=design&t=cdbVyeRC0Nt185Fb-1
+
+-figma (Mobile)
+https://www.figma.com/file/Ph2DRYj2wpvw93hnnS57Ql/%EB%B0%94%EB%A5%B8%ED%91%B8%EB%93%9C-mobile?type=design&mode=design&t=cdbVyeRC0Nt185Fb-1
