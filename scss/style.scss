@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+*,
+*:before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a,
+a:link{
+    text-decoration: none;
+    color:inherit;
+}
+
+ul,ol,li{
+    list-style:none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
   --text-color:#000;
   --body-color:#fff;
@@ -18,6 +39,7 @@ button {
 .wrap {
   max-width: 1440px;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 input {
