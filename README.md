@@ -13,7 +13,7 @@
 
 # links
 -dothome
-http://icetea.dothome.co.kr/barun_website
+http://icetea1.dothome.co.kr/barun/
 
 -화면설계,프로토타입 (PC)
 https://zrr.kr/RFnn
